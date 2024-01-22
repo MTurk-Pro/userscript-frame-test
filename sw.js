@@ -17,7 +17,3 @@ chrome.runtime.onInstalled.addListener(({ reason }) => {
     chrome.runtime.openOptionsPage();
   }
 });
-
-chrome.action.onClicked.addListener(() => {
-  chrome.runtime.openOptionsPage();
-});

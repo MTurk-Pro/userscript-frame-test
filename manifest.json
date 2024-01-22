@@ -9,7 +9,10 @@
   },
   "permissions": ["storage", "userScripts"],
   "host_permissions": ["<all_urls>"],
-  "action": {},
+  "action": {
+    "default_title": "Default Page",
+    "default_popup": "popup.html"
+  },
   "options_ui": {
     "page": "options.html",
     "open_in_tab": false
